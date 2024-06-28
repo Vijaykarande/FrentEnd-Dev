@@ -1,0 +1,11 @@
+body{
+    background-color: bisque;
+}
+
+tr{
+    border: 2px solid black;
+}
+
+td{
+    border: 2px solid blue;
+}
