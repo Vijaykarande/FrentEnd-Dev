@@ -1,0 +1,49 @@
+1)What is vs code editor?
+
+Visual Studio Code, or VS Code, is a code editor made by Microsoft. It works on Windows, Linux, macOS, and web browsers.
+Its features include:
+Debugging
+Syntax highlighting
+Smart code completion
+Code refactoring
+Built-in version control with Git
+
+
+2)What is HTML?
+
+HTML (HyperText Markup Language) was created by Tim Berners-Lee in 1991 as a standard for creating web pages.
+
+
+3)Features of HTML?
+
+It is platform-independent. For example, Chrome displays the same pages identically across different operating systems such as Mac, Linux, and Windows.
+Images, videos, and audio can be added to a web page (For example - YouTube shows videos on their website)
+HTML is a markup language and not a programming language.
+It can be integrated with other languages like CSS, JavaScript, etc. to show interactive (or dynamic) web pages
+
+
+4)Why the Term HyperText & Markup Language?
+
+Hypertext' refers to the linking of text with other documents, 
+while 'markup language' denotes a language that utilizes a specific set of tags.
+
+
+5)A beautiful analogy to understand HTML, CSS, and JavaScript:
+
+In building a webpage, think of HTML, CSS, and JavaScript as different parts of a car.
+HTML is like the car's skeleton, forming the basic structure and frame. CSS adds the paint and finishing touches, making the car look appealing with color, style, and design.
+JavaScript is similar to the engine and mechanical parts, infusing the car with functionality, movement, and interactive features. Similarly, when developing a website, HTML lays out the structure,
+CSS enhances its visual appeal, and JavaScript provides interactivity and dynamic content.
+
+
+
+6)History of HTML:
+In 1989, Tim Berners-Lee established the World Wide Web (www), and in 1991, he created the first version of HTML.
+From 1995 to 1997, further work was done to develop and refine different versions of HTML.
+In 1999, a committee was organized that standardized HTML 4.0, a version still used by many today.
+The latest and most stable version of HTML is 5, also known as HTML5.
+
+7)How does a basic website work?
+Web Browser(client) requests websites like www.linkedin.com from the web server.
+Web server in return sends HTML, CSS, and JavaScript files to it.
+HTML, CSS, and JavaScript files are parsed by a web browser which is responsible for showing you a beautiful website.
