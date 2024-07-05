@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        div{
+            background-color: red;
+        }
+
+        /* Class Selector */
+        .red{
+            background-color: aqua;
+        }
+
+        #green{
+            background-color: bisque;
+        }
+
+        /* Child Selector */
+        div > p{
+            color: yellow;
+        }
+/* 
+        Desendant Selector */
+
+        div p{
+            color: violet;
+            background-color: turquoise;
+        }
+
+        /* Unniversal Selector */
+        *{
+            margin: 0;
+            
+        }
+
+        /* Pseudo Selector */
+        a:visited{
+            color: springgreen;
+        }
+
+        a:link{
+            color: steelblue;
+        }
+
+        a:active{
+            color: orange;
+        }
+        a:hover{
+            background-color: coral;
+        }
+
+        p:first-child{
+            color:orange;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+    <div>
+        I am Software Developer
+    </div>
+
+    <div class="red">
+        I am Software Java Full Stack Developer
+    </div>
+
+    <div id="green">
+       <p> I am Software Developer</p>
+    </div>
+
+    <a href="https://www.google.com">Go To Google</a>
+    <a href="https://www.instagram.com">Go To Instagram</a>
+</body>
+</html>
