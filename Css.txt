@@ -1,0 +1,85 @@
+1)What is CSS?
+CSS stands for Cascading Style Sheets. It is a stylesheet language that is used to describe the visual presentation of a web page written in HTML (Hypertext Markup Language).
+
+HTML creates the structure of the page, while CSS adds styling to that structure.
+
+
+2)Why the word "cascade"?
+The term "cascade" refers to the priority scheme determining which CSS rules are applied when multiple rules target an element.
+
+
+3)A Bit of History:-
+CSS was created by Håkon Wium Lie to enhance the visual aspects of websites.
+
+4)Syntax of CSS
+
+The general syntax for writing CSS.
+
+
+For example:
+
+h2{
+    color: blue;
+}
+
+In the example:
+
+h2: h2 is the selector.
+color: It's the property.
+blue: The property value.
+
+
+
+5)Ways to add CSS
+There are three different ways to add CSS to an HTML page, which are:
+
+* Inline CSS
+Inline CSS is used to add custom properties to specific elements.
+	<h1 style="color: purple;">I'm harry</h1>
+
+
+* Internal CSS
+Internal CSS is used to apply custom style to the multiple elements on the same page.
+
+<head>
+    <style>
+        p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Vijay Karande</h1>
+    <p>I'm Vijay Karande</p>
+    <p>I'm a Developer</p>
+</body>
+
+</html>
+
+
+* External CSS
+
+External CSS works similarly to internal CSS but with a twist. Instead of adding the styles within the HTML file, we create a separate file with .css extension.
+
+
+6)What are CSS Selectors?
+CSS selectors allow us to choose specific elements and apply styles to them. 
+
+ * Universal Selector :
+		Universal selector represented by "*" targets all the HTML elements on the page.
+		
+* Element Selector :
+		The element selector selects the target element based on the specific type.
+
+* Id Selector
+		The ID selector targets the elements based on the specific ID.
+* Class Selector
+		The Class selector targets the elements based on the specific Class.
+
+* Group Selector
+The group selector is used to minimise the code. Commas "," are used to separate each selector in a grouping.
+
+	div, p, a {
+    property : value;
+}
