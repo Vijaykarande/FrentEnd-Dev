@@ -1,0 +1,28 @@
+*{
+    background-color: aquamarine;
+}
+
+h1{
+    color: yellowgreen;
+    background-color: beige;
+}
+
+h2{
+    color: #FF00FF;
+}
+
+p{
+    color: rgb(0, 34,54);
+}
+
+.l1{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.vj{
+    color: hsl(360, 100%, 100%);
+}
+
+.l2{
+    color: hsla(350, 100%, 100%, );
+}
