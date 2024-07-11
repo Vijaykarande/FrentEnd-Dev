@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS specificityt</title>
+    <style>
+        h1{
+            color: rgb(65, 93, 117);
+        }
+        .v1{
+            color: rgb(220, 175, 115);
+        }
+
+        .v3{
+            color: rgb(43, 70, 61);
+        }
+       h1.v2{
+            color: aqua;
+        }
+        [data-x=v]{
+            color:green;
+
+        }
+
+        
+    </style>
+</head>
+<body>
+     <h1  class="v1 v2 v3" data-x="v">CSS Specificity</h1>
+</body>
+</html>
