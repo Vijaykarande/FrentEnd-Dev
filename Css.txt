@@ -97,3 +97,62 @@ The group selector is used to minimise the code. Commas "," are used to separate
 
 
 10)CSS BAckgrounds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20)CSS Variables
+Define a Variable:
+
+You define a CSS variable using the -- prefix inside a :root selector or any other selector.
+ The :root selector is commonly used because it applies the variable globally.
+css
+Copy code
+:root {
+  --main-color: #3498db;
+  --main-font-size: 16px;
+}
+Use a Variable:
+
+You use the var() function to access the value of a CSS variable.
+css
+Copy code
+body {
+  color: var(--main-color);
+  font-size: var(--main-font-size);
+}
+
+
+21)Media Query
+A media query in CSS is used to apply styles to a web page based on the characteristics of the device it is being viewed on,
+ such as screen size, resolution, orientation, etc.

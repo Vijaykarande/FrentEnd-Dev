@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Query</title>
+
+
+    <style>
+        body{
+            background-color: tomato;
+        }
+
+        @media  screen and (orientation :landscape){
+            body{
+                border: 2px solid tan;
+            }
+        }
+
+        @media only screen and (max-width: 550px){
+            body{
+                background-color: turquoise;
+            }
+
+            .boxes{
+            flex-direction: column;
+        }
+        }
+
+
+        
+        .boxes{
+            /* background-color: teal; */
+            /* margin: 3px;
+            padding: 3px; */
+            display: flex;
+        }
+
+        .box{
+            background-color: violet;
+            width: 122px;
+            height: 122px;
+            margin: 4px;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Hey i am vijay karande
+    </div>
+
+
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
