@@ -83,3 +83,17 @@ The group selector is used to minimise the code. Commas "," are used to separate
 	div, p, a {
     property : value;
 }
+
+
+7)) CSS Specificity
+
+
+
+8)How to css work?
+
+
+
+9)CSS Color
+
+
+10)CSS BAckgrounds
