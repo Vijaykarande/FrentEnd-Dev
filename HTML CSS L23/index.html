@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Varaibles</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+        
+        /* :root{
+            --main-color: #00FF00;
+            --sec-color: #FFFF00;
+
+        } */
+
+        :root{
+            --main-color: #c05bc9;
+            --sec-color: #c7dde4;
+
+        }
+
+        body{
+            background-color: var(--main-color);
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+           background-color: var(--sec-color);
+            padding: 32px 0;
+            font-family: "Playwrite BE VLG", cursive;
+        }
+        ul li{
+            list-style: none;
+            display: inline;
+            padding: 34px;
+            color: rgb(226, 190, 226);
+            font-weight: bolder;
+        }
+        ul li a{
+            color: var(--main-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Sevices</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
