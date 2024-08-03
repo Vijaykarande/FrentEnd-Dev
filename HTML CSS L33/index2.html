@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(237, 194, 138);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+        .box{
+            width: 60px;
+            height: 60px;
+            background-color: aqua;
+            /* padding: 120px;
+            margin: 120px; */
+            
+            animation: vijay1 10s ease-in-out 1s ;
+        }
+
+        @keyframes vijay1 {
+
+            0%{
+                background-color: yellowgreen;
+                transform: rotate(-360deg);
+            }
+
+            25%{
+                background-color: yellow;
+            }
+
+            50%{
+                background-color: violet;
+            }
+            100%{
+                background-color: turquoise;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box1</div>
+    </div>
+</body>
+</html>

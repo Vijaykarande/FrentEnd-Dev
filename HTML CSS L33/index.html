@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ANIMATIONS</title>
+
+    <style>
+        .container{
+            background-color: antiquewhite;
+            height: 100vh;
+            width: 80vh;
+            display: flex;
+            text-align: center;
+
+
+        }
+        .box{
+            background-color: turquoise;
+            width: 60px;
+            height: 60px;
+            /* animation-name:  vijaykaanimation;
+            animation-duration: 3s;
+            animation-iteration-count: 5;
+            animation-timing-function: ease-in-out;
+            animation-delay: 2;
+            animation-play-state: paused;
+            */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: vijaykaanimation 4s ease-in-out 1s 1 backwards;
+        }
+
+      @keyframes vijaykaanimation {
+        from{
+           
+            background-color: blue;
+
+        }
+        to{
+            transform: translatex(1000px);
+            background-color: brown;
+
+        }
+        
+      }  
+
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Vijay
+        </div>
+    </div>
+</body>
+</html>
