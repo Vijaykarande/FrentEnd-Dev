@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS OBJECT FIT & POSITION</title>
+
+    <style>
+        .container{
+            height: 600px;
+            width: 600px;
+            border: 2px solid red;
+            /* background-color: beige; */
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-image:url(https://us.123rf.com/450wm/vectorsilhouettes/vectorsilhouettes1912/vectorsilhouettes191200017/136786014-vector-illustration-of-wildlife-scene-view-of-riverbank-forest-woodlands-clouds-on-the-sky-green.jpg?ver=6);
+            background-clip: border-box;
+            
+        }
+        img{
+            width: 490px;
+            height: 490px; 
+            /* object-fit: contain; */
+            /* object-fit: cover; */
+           
+           /* object-fit: contain; */
+           /* object-fit: scale-down; */
+            /* object-position: bottom right; */
+            object-fit: contain;
+            object-position: 20px 20px ;
+
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <!-- <img src="https://cdn.pixabay.com/photo/2023/10/03/09/59/port-8291059_960_720.jpg" alt="" srcset="">
+     -->
+    </div>
+</body>
+</html>
