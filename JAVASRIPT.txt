@@ -23,3 +23,12 @@ It is used to add interactivity and dynamic effects to web pages.
 Nowadays used in server-side development.
 JS Frontend Frameworks: React, Angular, Vue.
 JS Backend Frameworks: Express, Node.
+
+5)NPM
+npm is the package manager for Node.js. It was created in 2009 as an open source project to
+ help JavaScript developers easily share packaged modules of code.
+
+6)Node.js
+Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside of a web browser.
+ It is commonly used for building server-side applications, command-line tools, and other types of scalable network programs.
+
