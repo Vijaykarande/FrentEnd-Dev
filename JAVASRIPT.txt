@@ -32,3 +32,6 @@ npm is the package manager for Node.js. It was created in 2009 as an open source
 Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside of a web browser.
  It is commonly used for building server-side applications, command-line tools, and other types of scalable network programs.
 
+7)REPL
+The Node. js Read-Eval-Print-Loop (REPL) is an interactive shell that processes Node. js expressions.
+
