@@ -35,7 +35,7 @@ There are three different ways to add CSS to an HTML page, which are:
 
 * Inline CSS
 Inline CSS is used to add custom properties to specific elements.
-	<h1 style="color: purple;">I'm harry</h1>
+	<h1 style="color: purple;">I'm Vijay</h1>
 
 
 * Internal CSS
