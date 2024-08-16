@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <style>
+        .container{
+            background-color: wheat;
+
+        }
+
+        /* div p{
+            color: violet;
+            background-color: aqua;
+        } */
+
+        /* div>p{
+            color: turquoise;
+            background-color: yellow;
+        } */
+
+
+        /* div+p{
+            color: teal;
+            background-color: blueviolet;
+        }
+         */
+
+         div~p{
+            background-color: brown;
+            color: white;
+         }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        
+        
+        <div>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sit doloribus nihil.</p>
+            <p>Lorem, ipsum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto nihil ad?</p>
+            
+            <section>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore similique assumenda quis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores architecto odit.</p>
+                
+            </section>
+            <section>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo iusto voluptatem nihil.</p>
+            </section>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni deserunt praesentium similique.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    </body>
+</html>

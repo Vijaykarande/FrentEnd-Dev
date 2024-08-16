@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+
+    <style>
+
+        /* div p{
+            background-color: violet;
+            color:black;
+        } */
+
+
+        /* div >p{
+            background-color: turquoise;
+            color: tomato;
+        } */
+
+
+
+        div ~ p{
+            color: aliceblue;
+            background-color: turquoise;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Vijay Karande</h1>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quaerat ratione facilis.</p>  
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem magnam natus placeat.</p>    
+
+        <section>
+            <p>Lorem, ipsum.</p>
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis molestiae magnam accusamus!</p> -->
+        </section>
+
+        
+    </div>
+    <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum dolor.</p>
+</body>
+</html>
