@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Inherit</title>
+
+
+    <style>
+        body{
+            background-color: aquamarine;
+            width: 800px;
+            height: 800px;
+        }
+
+        span{
+            background-color: rgb(225, 199, 225);
+            color: brown;
+        }
+
+        .inherit span{
+           color: inherit;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem, <span> ipsum dolor sit amet consectetur</span> adipisicing elit. Dignissimos nobis nam dicta.</p>
+    </div>
+
+    <div>
+        <p class="Inherit" style="color: burlywood;">Lorem ipsum,  <span>dolor sit amet consectetur adipisicing elit</span>. Veritatis hic rem nesciunt odio illum voluptatum animi?</p>
+        
+    </div>
+
+    <div>
+        <p style="color: yellow;"> Lorem ipsum <span>dolor sit amet, consectetur adipisicing elit</span>. Aspernatur, provident.</p>
+
+    </div>
+</body>
+</html>
