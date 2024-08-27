@@ -207,6 +207,31 @@ Largest Contentful Paint (LCP) is one of the three Core Web Vitals metrics, and 
 
 
 
+ palette: {
+        mode: "dark",
+    
+        primary: {
+          main: "#FF4081" // Brighter pink for better visibility
+        },
+        secondary: {
+          main: "#7C4DFF" // Vibrant purple for contrast
+        },
+        black: {
+          main: "#1C1C1E" // Slightly lighter black for subtle contrast
+        },
+    
+        background: {
+          main: "#121212", // Dark grey background for a modern look
+          default: "#181818", // Slightly lighter background for sections
+          paper: "#1E1E1E" // Medium grey for cards and surfaces
+        },
+    
+        textColor: {
+          main: "#E0E0E0" // Light grey text for better readability
+        }
+      }
+
+
 
 
 
