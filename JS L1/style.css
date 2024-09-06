@@ -1,0 +1,14 @@
+
+.b1{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+.b1:hover{
+    color: rgb(0, 123, 255);
+    background-color: antiquewhite;
+}
