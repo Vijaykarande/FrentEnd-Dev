@@ -1,0 +1,14 @@
+.container{
+    background-color: azure;
+    
+}
+
+.box{
+    background-color: violet;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px solid black;
+    
+}
